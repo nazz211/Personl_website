@@ -212,13 +212,16 @@ a:hover {
   }
 }
 
-/*------/ Socials /------*/
+/------/ Socials /------/
 .socials {
   padding: 1.5rem 0;
 }
 
 .socials ul li {
   display: inline-block;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .socials .ico-circle {
@@ -230,14 +233,18 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
+
+  
 }
 
 .socials .ico-circle:hover {
+  
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
+  transition: all 500ms ease;
 }
+
 
 /*------/ Ul resect /------*/
 .ul-resect,
